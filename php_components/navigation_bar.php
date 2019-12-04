@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="http://taxilaradioclub.com/index.php"><b>TRC</b></a><b>
+      <a class="navbar-brand" href="http://taxilaradioclub.com"><b>TRC</b></a><b>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
           <ul class="navbar-nav">
