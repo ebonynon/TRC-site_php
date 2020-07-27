@@ -18,7 +18,7 @@
   <link href="css/clean-blog.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
     <div class="container">

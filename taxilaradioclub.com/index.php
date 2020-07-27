@@ -12,7 +12,7 @@
   <?php include "../php_components/stylesheet_includes__.php";?>	
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <!-- Navigation -->
   <?php include "../php_components/navigation_bar.php";?>
@@ -43,9 +43,7 @@
         <div class="row">
           <div class="col-md-6 p-3 text-white text-left">
             <h2 class="mb-4">About us</h2>
-            <p class="lead">1998 වර්ෂය ආරම්භ කරන ලද තක්ෂිලා මධ්‍ය විද්‍යාලය ගුවන් විදුලිය හා තාක්ෂණ සංගමය එතැන් සිට මේ දක්වා පාසලේ ක්‍රියාකාරීම සංගමයක් ලෙස කටයුතු කරමින් පවතී. 
-
-                පාසලේ ශබ්ද විකාශන කටයුතු මෙහෙය වීම, උත්සව හා වැඩසටහන් සදහා ශබ්ද පරිපාලන, ආලෝකකරණය, පරිගණක හා සියලුම තාක්ෂණික සහය ලබා දීමට කටයුතු කිරීම අප සංගමයේ මූලික කාර්‍යය වෙයි
+            <p class="lead">1998 වර්ෂය ආරම්භ කරන ලද තක්ෂිලා මධ්‍ය විද්‍යාලය ගුවන් විදුලි හා තාක්ෂණික සංගමය එතැන් සිට මේ දක්වා පාසලේ ක්‍රියාකාරීම සංගමයක් ලෙස කටයුතු කරමින් පවතී. පාසලේ ශබ්ද විකාශන කටයුතු මෙහෙය වීම, උත්සව හා වැඩසටහන් සදහා ශබ්ද පරිපාලන, ආලෝකකරණ, පරිගණක හා සියලුම තාක්ෂණික සහය ලබා දීමට කටයුතු කිරීම අප සංගමයේ මූලික කාර්‍යය වේ.
                 </p>
           </div>
           <!-- div class="col-md-6 p-3 text-white text-right">
@@ -61,32 +59,41 @@
           <div class="col-md-10 mx-auto px-4">
             <h2 class="text-muted mb-4">What do we do</h2>
             <div class="row text-left">
-              <div class="p-3 col-lg-4 col-md-6">
+              <div class="p-3 col-lg-3 col-md-3">
                 <div class="row mb-3">
                   <div class="text-center col-3"><i class="d-block mx-auto fa text-muted fa-4x fa-bullhorn"></i></div>
                   <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
-                    <h5 class="mb-0"><b>&nbsp; &nbsp;Sounds</b></h5>
+                    <h5 class="mb-0"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sounds</b></h5>
                   </div>
                 </div>
                 <p class="text-muted">ශබ්ධ විකාශන පහසුකම් සැපයීම , ශබ්ධ පරිපාලනය හා පොදු ඇමතුම් පද්දතිය පවත්වාගෙන යාම.</p>
               </div>
-              <div class="p-3 col-lg-4 col-md-6">
+              <div class="p-3 col-lg-3 col-md-6 col-md-3">
                 <div class="row mb-3">
                   <div class="text-center col-3"><i class="d-block mx-auto fa text-muted fa-4x fa-lightbulb-o"></i></div>
                   <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
                     <h5 class="mb-0"><b>&nbsp; Lighting</b></h5>
                   </div>
                 </div>
-                <p class="text-muted">ආලෝක කරණය හා ප්‍රදාන ශාලාවේ ආලෝක පද්දතිය පරිපාලනය.</p>
+                <p class="text-muted">ආලෝකකරණය හා ප්‍රධාන ශාලාවේ ආලෝක කරණ පද්ධතිය පරිපාලනය හා නඩත්තු කිරීම.</p>
               </div>
-              <div class="p-3 col-lg-4">
+              <div class="p-3 col-lg-3 col-md-3">
                 <div class="row mb-3">
                   <div class="text-center col-3"><i class="d-block mx-auto fa text-muted fa-4x fa-cogs"></i></div>
                   <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
-                    <h5 class="mb-0" style=""><b>&nbsp; R & D</b></h5>
+                    <h5 class="mb-0" style=""><b>&nbsp;&nbsp;&nbsp;&nbsp; R & D</b></h5>
                   </div>
                 </div>
                 <p class="text-muted">රොබෝ තාක්ෂණය හා යන්ත්‍ර ස්වයංක්‍රිය කරනය පිළිබද පරීක්ෂණ කරීම හා ඒ ඇසුරෙන් නව නිර්මාණ බිහි කිරීම.</p>
+              </div>
+              <div class="p-3 col-lg-3 col-md-3">
+                <div class="row mb-3">
+                  <div class="text-center col-3"><i class="d-block mx-auto fa text-muted fa-4x fa-book"></i></div>
+                  <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
+                    <h5 class="mb-0" style=""><b>&nbsp;&nbsp;&nbsp; Guide</b></h5>
+                  </div>
+                </div>
+                <p class="text-muted">තාක්ෂණික විෂය පථය පිලිබඳ ඇල්මක් දක්වන සිසුන්ට මාර්ගෝපදේශය.</p>
               </div>
             </div>
           </div>

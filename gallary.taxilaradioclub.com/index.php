@@ -17,7 +17,7 @@
     <?php include "../php_components/stylesheet_includes.php";?>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- navigation bar -->
     <?php include "../php_components/navigation_bar.php";?>
 
