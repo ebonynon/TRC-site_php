@@ -29,7 +29,7 @@
     </div>
     <div class="row">
         <div class="col-12 mt-3">
-        <p class="text-muted">© Copyright 2018 <a href="https://github.com/ebonynon">xeon</a> - All rights reserved. </p>
+        <p class="text-muted">© Copyright 2020 <a href="https://github.com/ebonynon">xeon</a> - All rights reserved. </p>
         </div>
     </div>
     </div>
